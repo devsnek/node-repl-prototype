@@ -41,4 +41,4 @@ const sheet = {
 };
 
 module.exports = (s) =>
-  emphasize.highlight('js', s, sheet).value;
+  emphasize.highlight('ts', s, sheet).value;
